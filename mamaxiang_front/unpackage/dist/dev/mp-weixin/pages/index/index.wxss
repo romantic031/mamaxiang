@@ -1,0 +1,18 @@
+.home{
+	width: 720rpx; margin-left: auto; margin-right: auto;
+}
+.nav_view01{
+	margin-bottom: 20rpx; margin-top: 20rpx;
+}
+.nav_view02 button{
+	width: 720rpx; height:110px; text-align: center; border: 0px; border-radius: 100px;
+}
+.nav_view01 button{
+	border: none; float: right;
+}
+.navgtorbar{
+		margin: 55rpx;
+		float: left;
+		display: inline;
+}
+

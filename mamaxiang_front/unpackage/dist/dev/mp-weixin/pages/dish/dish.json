@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "嘛嘛香",
+  "usingComponents": {
+    "u-swiper": "/uni_modules/uview-ui/components/u-swiper/u-swiper",
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "u-checkbox-group": "/uni_modules/uview-ui/components/u-checkbox-group/u-checkbox-group",
+    "u-checkbox": "/uni_modules/uview-ui/components/u-checkbox/u-checkbox",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup"
+  }
+}

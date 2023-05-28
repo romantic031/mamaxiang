@@ -1,0 +1,88 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "嘛嘛香自助点餐"
+			}
+		},
+		{
+			"path": "pages/store/store",
+			"style": {
+				"navigationBarTitleText": "选择餐厅"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "选择餐厅"
+			}
+		},
+		{
+			"path": "pages/dish/dish",
+			"style": {
+				"navigationBarTitleText": "嘛嘛香"
+			}
+		},
+		{
+			"path": "pages/user/register-account",
+			"style": {
+				"navigationBarTitleText": "账号注册",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/user/login-phone",
+			"style": {
+				"navigationBarTitleText": "手机号登录",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/vip/vip",
+			"style": {
+				"navigationBarTitleText": "会员"
+				// "navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/user/info",
+			"style": {
+				"navigationBarTitleText": "我的信息"
+				// "navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/order/addOrder",
+			"style": {
+				"navigationBarTitleText": "确认您的订单"
+			}
+		},
+		{
+			"path": "pages/order/historicalOrders",
+			"style": {
+				"navigationBarTitleText": "历史订单"
+			}
+		},
+		{
+			"path": "pages/user/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text":"\ue679",
+							"fontSrc":"static/ttf/uniicons.ttf"
+						}]
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

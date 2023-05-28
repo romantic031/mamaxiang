@@ -1,0 +1,65 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*	其他登录方式	*/
+.login-other.data-v-925fa6ba{
+	padding: 100rpx 0;
+}
+.other-text.data-v-925fa6ba{
+	display: flex;
+	padding: 50rpx 0;
+}
+.other-text view.data-v-925fa6ba{
+	line-height: 0rpx;
+	padding: 0 10rpx;
+}
+.other-text.data-v-925fa6ba::after{
+	flex: 1;
+	content: '';
+	height: 2rpx;
+	background-color: #CCCCCC;
+}
+.other-text.data-v-925fa6ba::before{
+	flex: 1;
+	content: '';
+	height: 2rpx;
+	background-color: #CCCCCC;
+}
+.other.data-v-925fa6ba{
+	display: flex;
+	/* 往中间堆 */
+	justify-content: space-around;
+}
+.other-item.data-v-925fa6ba{
+	font-size: 20rpx;
+	text-align: center;
+}
+
+

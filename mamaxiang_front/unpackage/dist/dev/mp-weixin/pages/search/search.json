@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择餐厅",
+  "usingComponents": {
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup"
+  }
+}

@@ -1,0 +1,237 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page{
+	height: 100%;
+	background-color: #e8e8e8;
+}
+.home{
+	height: 100%;
+}
+.top_view{
+	margin: 8px 8px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.left{
+	margin-top: 100rpx;
+	height: 100%;
+	width: 160rpx;
+	text-align: center;
+	position: relative;
+}
+.left_view{
+	width: 160rpx;
+	height: 110rpx;
+	line-height: 110rpx;
+	font-size: 25rpx;
+	border-radius: 10px;
+}
+.left_view::before{
+	content: "";
+	position: absolute;
+	left: 40rpx;
+	right: auto;
+	top: auto;
+	bottom: auto;
+	width: 80rpx;
+	height: 1px;
+	background-color:#b4b4b4;
+}
+.left_view_active{
+	background-color: #aa1024;
+	color: #e8e8e8;
+	border: none;
+}
+.right{
+	height: 100%;
+	width:570rpx;
+	margin: 10rpx 10rpx;
+	margin-top: 90rpx;
+}
+.right_view{
+	position: relative;
+	height: 300rpx;
+	width: 570rpx;
+	border-radius: 10px;
+	background-color: #ffffff;
+	margin-bottom: 60rpx;
+}
+.right_view image{	
+	height: 300rpx;
+	width: 285rpx;
+}
+.right_view_info{
+	margin: 20rpx 10rpx;
+	height: 260rpx;
+	width: 265rpx;
+	font-size: 25rpx;
+	font-weight: 700;
+	float: right;
+	text-align: right;
+}
+.right_view_info_btnAdd{
+	border-radius: 5px;
+	height: 40rpx;
+	width: 100rpx;
+	line-height: 40rpx;
+	background-color: #aa1024;
+	color: #ffffff;
+	position: absolute;
+	top:260rpx;
+	left: 470rpx;
+	flex-direction: column;
+}
+.right_view_info_btn{
+	border-radius: 5px;
+	height: 45rpx;
+	width: 140rpx;
+	line-height: 45rpx;
+	background-color: #aa1024;
+	color: #ffffff;
+	position: absolute;
+	top:255rpx;
+	left: 430rpx;
+	font-size: 20rpx;
+}
+.anniu{
+  display:flex;
+  position:fixed; 
+  width:95%;
+  z-index:666;
+  bottom:55rpx;
+  left: 100rpx;
+}
+.btbdstk{
+  border-radius:100px;
+  width:80%;
+  margin: 0;
+}
+.sqdzk{
+  display: flex;
+  font-size:30rpx;
+  color:#ffffff;
+  width:100%;
+  border-radius:100px;
+  background:#aa1024;
+  height: 95rpx;
+  text-align: center;
+  line-height:95rpx;
+}
+.swiper_view{
+	width: 720rpx;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* .cartBox{
+	display: flex;
+	flex-direction: row;
+} */
+.cartTopView{
+	display: flex;
+	margin: 6px;
+	padding: 10px;
+}
+.cartTopTitle{
+	flex: 7;
+	font-size: 35rpx;
+	font-weight: 700;
+	text-align: left;
+}
+.cartTopBtn{
+	text-align: center;
+	line-height: 30px;
+	font-size: 20rpx;
+	flex: 3;
+	text-align: center;
+	color: #b4b4b4;
+	border: #ffffff 1rpx solid;
+}
+.cartContentItem{
+	display: flex;
+	margin-bottom: 15px;
+	width: 93%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.cartContentItem image{
+	flex: 2;
+	height: 80px;
+	width: 80px;
+}
+.itemCenterView{
+	flex-direction: column;
+	flex: 6;
+	display: flex;
+}
+.itemName{
+	flex: 1;
+	font-weight: 700;
+	padding: 10px;
+}
+.itemPrice{
+	flex: 1;
+	color: #aa1024;
+	font-weight: 700;
+	padding: 10px;
+}
+.itemRightView{
+	display: flex;
+	flex: 2;
+	justify-content: center;
+	align-items:center;
+}
+.LeftSubtract{
+	flex: 1;
+	text-align: center;
+	line-height: 25px;
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+	border: #aa1024 1px solid;
+	border-radius: 180px;
+	background-color: #ffffff;
+	padding: 0 5px 5px;
+}
+.rightAdd{
+	flex: 1;
+	text-align: center;
+	line-height: 25px;
+	width: 25px;
+	height: 25px;
+	font-size: 20px;
+	margin-left: 10px;
+	border: none;
+	border-radius: 180px;
+	background-color: #aa1024;
+	color: #ffffff;
+	padding: 0 5px 5px;
+}
+.cartBottomView{
+	height: 90px;
+	width: 100%;
+}
+

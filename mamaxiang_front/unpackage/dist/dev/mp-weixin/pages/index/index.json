@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "嘛嘛香自助点餐",
+  "usingComponents": {
+    "u-swiper": "/uni_modules/uview-ui/components/u-swiper/u-swiper"
+  }
+}

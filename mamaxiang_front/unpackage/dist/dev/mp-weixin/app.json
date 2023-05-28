@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/store/store",
+    "pages/search/search",
+    "pages/dish/dish",
+    "pages/user/register-account",
+    "pages/user/login-phone",
+    "pages/vip/vip",
+    "pages/user/info",
+    "pages/order/addOrder",
+    "pages/order/historicalOrders",
+    "pages/user/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}
